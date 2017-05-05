@@ -33,11 +33,11 @@ public class ImpresorLCD {
     
     
     
-    public void adicionarLinea(int[] punto, char posFija,
+    public void adicionarLinea(int[] punto,
         int size, String caracter) {
-        
-        switch(posFija){
-            case 'X': 
+        char opc= caracter.charAt(0);
+        switch(opc){
+            case '-': 
                 for (int y = 1; y <= size; y++) 
                 {   
                     int valor = punto[1] + y;
@@ -45,7 +45,7 @@ public class ImpresorLCD {
                     
                 }
                 break;
-            case 'Y':
+            case '|':
                 for (int i = 1; i <= size; i++) 
                 {
                     int valor = punto[0] + i;

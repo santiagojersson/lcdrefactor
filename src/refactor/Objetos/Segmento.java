@@ -66,31 +66,31 @@ public class Segmento extends ImpresorLCD{
     private void seleccionarSegmento(Integer segmento) {
         switch (segmento) {
             case 1:
-                Controlador.impresor.adicionarLinea( this.pf1, this.POSICION_Y,
+                Controlador.impresor.adicionarLinea( this.pf1,
                         Controlador.impresor.size, this.CARACTER_VERTICAL);
                 break;
             case 2:
-                Controlador.impresor.adicionarLinea( this.pf2, this.POSICION_Y,
+                Controlador.impresor.adicionarLinea( this.pf2,
                         Controlador.impresor.size, this.CARACTER_VERTICAL);
                 break;
             case 3:
-                Controlador.impresor.adicionarLinea( this.pf5, this.POSICION_Y,
+                Controlador.impresor.adicionarLinea( this.pf5,
                         Controlador.impresor.size, this.CARACTER_VERTICAL);
                 break;
             case 4:
-                Controlador.impresor.adicionarLinea( this.pf4, this.POSICION_Y,
+                Controlador.impresor.adicionarLinea( this.pf4,
                         Controlador.impresor.size, this.CARACTER_VERTICAL);
                 break;
             case 5:
-                Controlador.impresor.adicionarLinea(this.pf1, this.POSICION_X,
+                Controlador.impresor.adicionarLinea(this.pf1,
                         Controlador.impresor.size, this.CARACTER_HORIZONTAL);
                 break;
             case 6:
-                Controlador.impresor.adicionarLinea(this.pf2, this.POSICION_X,
+                Controlador.impresor.adicionarLinea(this.pf2,
                         Controlador.impresor.size, this.CARACTER_HORIZONTAL);
                 break;
             case 7:
-                Controlador.impresor.adicionarLinea(this.pf3, this.POSICION_X,
+                Controlador.impresor.adicionarLinea(this.pf3,
                         Controlador.impresor.size, this.CARACTER_HORIZONTAL);
                 break;
             default:
